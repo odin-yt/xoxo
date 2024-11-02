@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>XOXO by Jvssm</header>
+    <p id="p1"></p>
+    <script>
+        p1=prompt("Player X : ")
+        p2=prompt("Player O : ")
+        cp = 'X'
+        sx=0
+        so=0
+        document.getElementById("p1").innerHTML = p1 + " turn"
+    </script>
+    <table>
+        <tr>
+            <td id="11" ondblclick="clk(this)"></td>
+            <td id="12" ondblclick="clk(this)"></td>
+            <td id="13" ondblclick="clk(this)"></td>
+        </tr>
+        <tr>
+            <td id="21" ondblclick="clk(this)"></td>
+            <td id="22" ondblclick="clk(this)"></td>
+            <td id="23" ondblclick="clk(this)"></td>
+        </tr>
+        <tr>
+            <td id="31" ondblclick="clk(this)"></td>
+            <td id="32" ondblclick="clk(this)"></td>
+            <td id="33" ondblclick="clk(this)"></td>
+        </tr>
+    </table>
+    <input type="button" value="Restart" onclick="rest()">
+</body>
+</html>

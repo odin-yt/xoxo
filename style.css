@@ -1,0 +1,68 @@
+/* xxx.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Player turn text styles */
+#p1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Table styles */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 240px; /* Reduced width for a smaller table */
+}
+
+td {
+    width: 80px; /* Adjusted cell width */
+    height: 80px; /* Adjusted cell height */
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Hover effect for table cells */
+td:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for winning marks */
+img {
+    width: 70%; /* Adjust image width */
+    height: 70%; /* Adjust image height */
+    position: absolute;
+    top: 15%; /* Adjust top position for better centering */
+    left: 15%; /* Adjust left position for better centering */
+}
+
+/* Button styles */
+input[type="button"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
